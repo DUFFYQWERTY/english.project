@@ -1,0 +1,71 @@
+body {
+
+    background: #fc00ff;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #00dbde, #fc00ff);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+}
+
+/* конец лоадера */
+/* все для заголовка*/
+.header {
+    color: aqua;
+    text-align: center;
+    font-size: 40px;
+}
+
+/* все для текста с пояснением*/
+.explanation {
+    text-align: auto;
+    float: left;
+    clear: both;
+    width: 80%;
+    height: 450px;
+    margin-left: 10%;
+    font-size: 250%;
+    margin-bottom: 100px;
+}
+
+/* все для ссылок*/
+.help_stuff {
+    text-align: center;
+    float: left;
+    clear: both;
+    width: 80%;
+    height: 450px;
+    margin-left: 10%;
+    font-size: 250%;
+}
+
+/*кнопка*/
+.button {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 10px;
+    width: 5%;
+    height: 50px;
+    border-radius: 3000px;
+    background-color: #00dbde;
+    background-image: url('https://image.flaticon.com/icons/svg/1767/1767193.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    line-height: 100px;
+    margin: 0 auto;
+    -o-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    z-index: -1;
+}
+.button:hover {
+ -o-transform: translate(-20px, 20px);
+  -ms-transform: translate(-20px, 20px);
+  -moz-transform: translate(-20px, 20px);
+  -webkit-transform: translate(-20px, 20px);
+  transform: translate(-20px, 20px);
+}
